@@ -1,2 +1,33 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2adv-markup</title>
+</head>
+<body>
+  <section>
+    <h1>Lists</h2>
+      <o1>
+        <li>Item one</li>
+        <li>Second item</li>
+        <li>Last one</li>
+      </o1>
+    <h2>Unordered List</h2>
+      <u1>
+        <li>First same</li>
+        <li>Not again</li>
+        <li>
+          <u1>
+            <li>Lists can be</li>
+            <li>Nested to</li>
+            <li>Arbitrary depth</li>
+          </u1>
+        </li>
+        <li>Henceforth</li>
+      </u1>
+      <h2>Defitinion List</h2>
+        <d1>
+          <dt>Defitinion Term</dt>
+          <dd>Defitinion details include more information.</dd>
+          
